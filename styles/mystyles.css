@@ -1,0 +1,39 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maroon{
+    color: grey;
+}
+.underline{
+    font-style: italic;
+}
+.newFont {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h2{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
